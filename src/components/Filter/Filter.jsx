@@ -12,7 +12,7 @@ export class Filter extends Component {
           className={css.filter__input}
           value={filter}
           onChange={addFilter}
-          placeholder="Enter name"
+          placeholder="Find contact"
         />
       </div>
     );

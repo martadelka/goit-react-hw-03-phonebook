@@ -74,12 +74,11 @@ export class App extends Component {
       <section className={css.content}>
         <div className={css.content__container}>
           <ContactForm addContact={this.addContact} />
+          <Filter filter={filter} addFilter={this.addFilter} />
           <ContactList
             contacts={this.filteredContacts()}
             deleteContact={this.deleteContact}
-          >
-            <Filter filter={filter} addFilter={this.addFilter} />
-          </ContactList>
+          />
         </div>
       </section>
     );

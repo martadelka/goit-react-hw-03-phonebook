@@ -1,6 +1,6 @@
 import css from './ContactList.module.css'
 
-export const ContactList = ({ contacts, children, deleteContact }) => {
+export const ContactList = ({ contacts, deleteContact }) => {
   return (
     <div className={css.contacts}>
       <h2>Contacts</h2>
