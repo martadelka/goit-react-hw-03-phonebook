@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import css from '../App.module.css'
-
 import { Report } from 'notiflix/build/notiflix-report-aio';
+
+import css from '../App.module.css'
 
 import { Filter } from './Filter/Filter'
 import { ContactList } from './ContactList/ContactList'
